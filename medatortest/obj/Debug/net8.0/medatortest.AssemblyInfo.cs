@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("medatortest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9c24aa5a3f5cf92392003d133e9ead274076bae")]
 [assembly: System.Reflection.AssemblyProductAttribute("medatortest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("medatortest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
