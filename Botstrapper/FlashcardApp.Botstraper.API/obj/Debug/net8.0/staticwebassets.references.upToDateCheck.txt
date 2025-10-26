@@ -1,0 +1,5 @@
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.API\obj\Debug\net8.0\staticwebassets.build.json
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.API\obj\Debug\net8.0\staticwebassets.build.json
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.API\obj\Debug\net8.0\staticwebassets.build.json
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.API\obj\Debug\net8.0\staticwebassets.build.json
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.API\obj\Debug\net8.0\staticwebassets.build.json

@@ -1,0 +1,17 @@
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Infrastructure\bin\Debug\net8.0\FlashCard.Modules.Users.Infrastructure.deps.json
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Infrastructure\bin\Debug\net8.0\FlashCard.Modules.Users.Infrastructure.dll
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Infrastructure\bin\Debug\net8.0\FlashCard.Modules.Users.Infrastructure.pdb
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Infrastructure\bin\Debug\net8.0\Flashcard.Modules.Users.Application.dll
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Infrastructure\bin\Debug\net8.0\Flashcard.Modules.Users.Domain.dll
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Infrastructure\bin\Debug\net8.0\Flashcard.Modules.Users.Application.pdb
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Infrastructure\bin\Debug\net8.0\Flashcard.Modules.Users.Domain.pdb
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Infrastructure\obj\Debug\net8.0\FlashCard.Modules.Users.Infrastructure.csproj.AssemblyReference.cache
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Infrastructure\obj\Debug\net8.0\FlashCard.Modules.Users.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Infrastructure\obj\Debug\net8.0\FlashCard.Modules.Users.Infrastructure.AssemblyInfoInputs.cache
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Infrastructure\obj\Debug\net8.0\FlashCard.Modules.Users.Infrastructure.AssemblyInfo.cs
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Infrastructure\obj\Debug\net8.0\FlashCard.Modules.Users.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Infrastructure\obj\Debug\net8.0\FlashCar.3E14D349.Up2Date
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Infrastructure\obj\Debug\net8.0\FlashCard.Modules.Users.Infrastructure.dll
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Infrastructure\obj\Debug\net8.0\refint\FlashCard.Modules.Users.Infrastructure.dll
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Infrastructure\obj\Debug\net8.0\FlashCard.Modules.Users.Infrastructure.pdb
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Infrastructure\obj\Debug\net8.0\ref\FlashCard.Modules.Users.Infrastructure.dll

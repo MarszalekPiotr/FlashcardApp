@@ -1,0 +1,15 @@
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Application\bin\Debug\net8.0\Flashcard.Modules.Users.Application.deps.json
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Application\bin\Debug\net8.0\Flashcard.Modules.Users.Application.dll
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Application\bin\Debug\net8.0\Flashcard.Modules.Users.Application.pdb
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Application\bin\Debug\net8.0\Flashcard.Modules.Users.Domain.dll
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Application\bin\Debug\net8.0\Flashcard.Modules.Users.Domain.pdb
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Application\obj\Debug\net8.0\Flashcard.Modules.Users.Application.csproj.AssemblyReference.cache
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Application\obj\Debug\net8.0\Flashcard.Modules.Users.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Application\obj\Debug\net8.0\Flashcard.Modules.Users.Application.AssemblyInfoInputs.cache
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Application\obj\Debug\net8.0\Flashcard.Modules.Users.Application.AssemblyInfo.cs
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Application\obj\Debug\net8.0\Flashcard.Modules.Users.Application.csproj.CoreCompileInputs.cache
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Application\obj\Debug\net8.0\Flashcar.CF2829AD.Up2Date
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Application\obj\Debug\net8.0\Flashcard.Modules.Users.Application.dll
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Application\obj\Debug\net8.0\refint\Flashcard.Modules.Users.Application.dll
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Application\obj\Debug\net8.0\Flashcard.Modules.Users.Application.pdb
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Application\obj\Debug\net8.0\ref\Flashcard.Modules.Users.Application.dll

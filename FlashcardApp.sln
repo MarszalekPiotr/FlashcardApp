@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Botstrapper", "Botstrapper", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{DC445D38-1714-42A5-B66D-0A8E6E92953F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{EDF9662E-A426-4B43-8378-3F62BC7D1781}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{369CB01D-A1A7-72D2-AABC-3F0945D148A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRS", "CQRS", "{92F7A287-6C60-4AA3-AFCD-B54B497FD990}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashcardApp.Botstraper.API", "Botstrapper\FlashcardApp.Botstraper.API\FlashcardApp.Botstraper.API.csproj", "{7C5B826D-000F-730B-90D0-C4E847F7B0E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashCard.Modules.Users.API", "Modules\Users\Users.API\FlashCard.Modules.Users.API.csproj", "{6CF4B562-D292-DCFC-AE01-8AF221143915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashCard.Modules.Users.Infrastructure", "Modules\Users\Users.Infrastructure\FlashCard.Modules.Users.Infrastructure.csproj", "{D146BBA9-8F2F-BD10-0AB2-4F05A7B85FF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flashcard.Modules.Users.Application", "Modules\Users\Users.Application\Flashcard.Modules.Users.Application.csproj", "{234ECAA3-C8DD-D378-1F14-5E497F3CDAA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flashcard.Modules.Users.Domain", "Modules\Users\Users.Domain\Flashcard.Modules.Users.Domain.csproj", "{9079EDFA-BA40-C3E5-8ED4-80DB23919D8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashCard.Shared.CQRS.Application", "Shared\CQRS\CQRS.Application\FlashCard.Shared.CQRS.Application.csproj", "{83103359-9AA3-5557-C201-B2A07A8DD108}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Temporarytests", "Temporarytests", "{766DC976-6836-4160-BB9C-A7DC9B58D673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "medatortest", "medatortest\medatortest.csproj", "{ED692ADA-8D71-459F-86DC-C18438F69971}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C5B826D-000F-730B-90D0-C4E847F7B0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5B826D-000F-730B-90D0-C4E847F7B0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5B826D-000F-730B-90D0-C4E847F7B0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5B826D-000F-730B-90D0-C4E847F7B0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF4B562-D292-DCFC-AE01-8AF221143915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF4B562-D292-DCFC-AE01-8AF221143915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF4B562-D292-DCFC-AE01-8AF221143915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF4B562-D292-DCFC-AE01-8AF221143915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D146BBA9-8F2F-BD10-0AB2-4F05A7B85FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D146BBA9-8F2F-BD10-0AB2-4F05A7B85FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D146BBA9-8F2F-BD10-0AB2-4F05A7B85FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D146BBA9-8F2F-BD10-0AB2-4F05A7B85FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{234ECAA3-C8DD-D378-1F14-5E497F3CDAA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{234ECAA3-C8DD-D378-1F14-5E497F3CDAA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{234ECAA3-C8DD-D378-1F14-5E497F3CDAA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{234ECAA3-C8DD-D378-1F14-5E497F3CDAA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9079EDFA-BA40-C3E5-8ED4-80DB23919D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9079EDFA-BA40-C3E5-8ED4-80DB23919D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9079EDFA-BA40-C3E5-8ED4-80DB23919D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9079EDFA-BA40-C3E5-8ED4-80DB23919D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83103359-9AA3-5557-C201-B2A07A8DD108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83103359-9AA3-5557-C201-B2A07A8DD108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83103359-9AA3-5557-C201-B2A07A8DD108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83103359-9AA3-5557-C201-B2A07A8DD108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED692ADA-8D71-459F-86DC-C18438F69971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED692ADA-8D71-459F-86DC-C18438F69971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED692ADA-8D71-459F-86DC-C18438F69971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED692ADA-8D71-459F-86DC-C18438F69971}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDF9662E-A426-4B43-8378-3F62BC7D1781} = {DC445D38-1714-42A5-B66D-0A8E6E92953F}
+		{92F7A287-6C60-4AA3-AFCD-B54B497FD990} = {369CB01D-A1A7-72D2-AABC-3F0945D148A2}
+		{7C5B826D-000F-730B-90D0-C4E847F7B0E1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6CF4B562-D292-DCFC-AE01-8AF221143915} = {EDF9662E-A426-4B43-8378-3F62BC7D1781}
+		{D146BBA9-8F2F-BD10-0AB2-4F05A7B85FF7} = {EDF9662E-A426-4B43-8378-3F62BC7D1781}
+		{234ECAA3-C8DD-D378-1F14-5E497F3CDAA2} = {EDF9662E-A426-4B43-8378-3F62BC7D1781}
+		{9079EDFA-BA40-C3E5-8ED4-80DB23919D8D} = {EDF9662E-A426-4B43-8378-3F62BC7D1781}
+		{83103359-9AA3-5557-C201-B2A07A8DD108} = {92F7A287-6C60-4AA3-AFCD-B54B497FD990}
+		{766DC976-6836-4160-BB9C-A7DC9B58D673} = {369CB01D-A1A7-72D2-AABC-3F0945D148A2}
+		{ED692ADA-8D71-459F-86DC-C18438F69971} = {766DC976-6836-4160-BB9C-A7DC9B58D673}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BACD001-8337-4EA3-A441-232E3E4CE915}
+	EndGlobalSection
+EndGlobal

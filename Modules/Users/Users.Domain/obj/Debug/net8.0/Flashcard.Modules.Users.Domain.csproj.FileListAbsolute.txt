@@ -1,0 +1,11 @@
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Domain\bin\Debug\net8.0\Flashcard.Modules.Users.Domain.deps.json
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Domain\bin\Debug\net8.0\Flashcard.Modules.Users.Domain.dll
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Domain\bin\Debug\net8.0\Flashcard.Modules.Users.Domain.pdb
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Domain\obj\Debug\net8.0\Flashcard.Modules.Users.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Domain\obj\Debug\net8.0\Flashcard.Modules.Users.Domain.AssemblyInfoInputs.cache
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Domain\obj\Debug\net8.0\Flashcard.Modules.Users.Domain.AssemblyInfo.cs
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Domain\obj\Debug\net8.0\Flashcard.Modules.Users.Domain.csproj.CoreCompileInputs.cache
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Domain\obj\Debug\net8.0\Flashcard.Modules.Users.Domain.dll
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Domain\obj\Debug\net8.0\refint\Flashcard.Modules.Users.Domain.dll
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Domain\obj\Debug\net8.0\Flashcard.Modules.Users.Domain.pdb
+D:\Repos\FlashcardApp\FlashcardApp\src\Modules\Users\Users.Domain\obj\Debug\net8.0\ref\Flashcard.Modules.Users.Domain.dll
