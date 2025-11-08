@@ -42,7 +42,7 @@ namespace FlashCard.Shared.CQRS.Application.Logic
                 services.AddScoped(handlerType);
             }
 
-            services.AddSingleton<Mediator>();
+            services.AddSingleton<Mediator>(sp => new Mediator(services, sp));
 
 
             return services;

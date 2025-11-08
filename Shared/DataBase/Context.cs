@@ -1,6 +1,6 @@
-﻿using Flashcard.Modules.Users.Domain.Entities;
+﻿
 using Microsoft.EntityFrameworkCore;
-using System;
+using System;  
 
 namespace DataBase
 {
@@ -15,9 +15,18 @@ namespace DataBase
         {
             base.OnModelCreating(modelBuilder);
 
+
+
             // Automatycznie wczytaj wszystkie konfiguracje z modułów
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(Context).Assembly);
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(User).Assembly);  // z modułu Users
+
+            var assemblies = AppDomain.CurrentDomain.GetAssemblies();
+            
+            assemblies.ToList().ForEach(assembly =>
+            {
+                modelBuilder.ApplyConfigurationsFromAssembly(assembly);
+            });
+
+          
             //modelBuilder.ApplyConfigurationsFromAssembly(typeof(Word).Assembly);  // z modułu Words
            
         }

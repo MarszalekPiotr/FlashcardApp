@@ -18,8 +18,7 @@ builder.Services.AddSwaggerGen();
 // Log parameter values as well
 
 builder.Services.AddDbContext<Context>(opt => 
-    opt.UseSqlServer("Data Source=vocabulary.db"));
-
+    opt.UseSqlServer("Server=localhost;Database=FlashCardDB;User Id=sa;Password=Elettric802037;TrustServerCertificate=True;"));
 
 // add modules
 builder.Services.AddUserModule();
