@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\medatortest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|solutionrelative:medatortest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{83103359-9AA3-5557-C201-B2A07A8DD108}|Shared\\CQRS\\CQRS.Application\\FlashCard.Shared.CQRS.Application.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\shared\\cqrs\\cqrs.application\\logic\\mediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83103359-9AA3-5557-C201-B2A07A8DD108}|Shared\\CQRS\\CQRS.Application\\FlashCard.Shared.CQRS.Application.csproj|solutionrelative:shared\\cqrs\\cqrs.application\\logic\\mediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\medatortest\\query\\randomnymberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|solutionrelative:medatortest\\query\\randomnymberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83103359-9AA3-5557-C201-B2A07A8DD108}|Shared\\CQRS\\CQRS.Application\\FlashCard.Shared.CQRS.Application.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\shared\\cqrs\\cqrs.application\\logic\\mediatorextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83103359-9AA3-5557-C201-B2A07A8DD108}|Shared\\CQRS\\CQRS.Application\\FlashCard.Shared.CQRS.Application.csproj|solutionrelative:shared\\cqrs\\cqrs.application\\logic\\mediatorextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83103359-9AA3-5557-C201-B2A07A8DD108}|Shared\\CQRS\\CQRS.Application\\FlashCard.Shared.CQRS.Application.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\shared\\cqrs\\cqrs.application\\logic\\abstract\\irequestvoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83103359-9AA3-5557-C201-B2A07A8DD108}|Shared\\CQRS\\CQRS.Application\\FlashCard.Shared.CQRS.Application.csproj|solutionrelative:shared\\cqrs\\cqrs.application\\logic\\abstract\\irequestvoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\medatortest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|solutionrelative:medatortest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\medatortest\\query\\randomnumberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|solutionrelative:medatortest\\query\\randomnumberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\medatortest\\query\\randomnymberqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|solutionrelative:medatortest\\query\\randomnymberqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\medatortest\\query\\randomnumberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|solutionrelative:medatortest\\query\\randomnumberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\medatortest\\query\\randomnymberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|solutionrelative:medatortest\\query\\randomnymberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\medatortest\\medatortest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|solutionrelative:medatortest\\medatortest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\medatortest\\command\\randomnymbercommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,14 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\medatortest\\command\\randomnumbercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|solutionrelative:medatortest\\command\\randomnumbercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\medatortest\\medatortest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{ED692ADA-8D71-459F-86DC-C18438F69971}|medatortest\\medatortest.csproj|solutionrelative:medatortest\\medatortest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83103359-9AA3-5557-C201-B2A07A8DD108}|Shared\\CQRS\\CQRS.Application\\FlashCard.Shared.CQRS.Application.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\shared\\cqrs\\cqrs.application\\logic\\abstract\\irequestvoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83103359-9AA3-5557-C201-B2A07A8DD108}|Shared\\CQRS\\CQRS.Application\\FlashCard.Shared.CQRS.Application.csproj|solutionrelative:shared\\cqrs\\cqrs.application\\logic\\abstract\\irequestvoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83103359-9AA3-5557-C201-B2A07A8DD108}|Shared\\CQRS\\CQRS.Application\\FlashCard.Shared.CQRS.Application.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\shared\\cqrs\\cqrs.application\\logic\\abstract\\irequesthandlervoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,6 +53,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{83103359-9AA3-5557-C201-B2A07A8DD108}|Shared\\CQRS\\CQRS.Application\\FlashCard.Shared.CQRS.Application.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\shared\\cqrs\\cqrs.application\\logic\\abstract\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83103359-9AA3-5557-C201-B2A07A8DD108}|Shared\\CQRS\\CQRS.Application\\FlashCard.Shared.CQRS.Application.csproj|solutionrelative:shared\\cqrs\\cqrs.application\\logic\\abstract\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83103359-9AA3-5557-C201-B2A07A8DD108}|Shared\\CQRS\\CQRS.Application\\FlashCard.Shared.CQRS.Application.csproj|d:\\repos\\flashcardapp\\flashcardapp\\src\\shared\\cqrs\\cqrs.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,32 +90,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "RandomNymberCommandRequest.cs",
               "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\medatortest\\Command\\RandomNymberCommandRequest.cs",
               "RelativeDocumentMoniker": "medatortest\\Command\\RandomNymberCommandRequest.cs",
               "ToolTip": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\medatortest\\Command\\RandomNymberCommandRequest.cs",
               "RelativeToolTip": "medatortest\\Command\\RandomNymberCommandRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T12:46:29.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RandomNymberQuery.cs",
-              "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\medatortest\\Query\\RandomNymberQuery.cs",
-              "RelativeDocumentMoniker": "medatortest\\Query\\RandomNymberQuery.cs",
-              "ToolTip": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\medatortest\\Query\\RandomNymberQuery.cs",
-              "RelativeToolTip": "medatortest\\Query\\RandomNymberQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T13:45:50.733Z",
               "EditorCaption": ""
             },
             {
@@ -125,7 +120,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Mediator.cs",
+              "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\Mediator.cs",
+              "RelativeDocumentMoniker": "Shared\\CQRS\\CQRS.Application\\Logic\\Mediator.cs",
+              "ToolTip": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\Mediator.cs",
+              "RelativeToolTip": "Shared\\CQRS\\CQRS.Application\\Logic\\Mediator.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvz0AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T13:58:58.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RandomNymberQuery.cs",
+              "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\medatortest\\Query\\RandomNymberQuery.cs",
+              "RelativeDocumentMoniker": "medatortest\\Query\\RandomNymberQuery.cs",
+              "ToolTip": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\medatortest\\Query\\RandomNymberQuery.cs",
+              "RelativeToolTip": "medatortest\\Query\\RandomNymberQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T13:45:50.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "RandomNymberQueryHandler.cs",
               "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\medatortest\\Query\\RandomNymberQueryHandler.cs",
               "RelativeDocumentMoniker": "medatortest\\Query\\RandomNymberQueryHandler.cs",
@@ -138,41 +159,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "MediatorExtension.cs",
+              "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\MediatorExtension.cs",
+              "RelativeDocumentMoniker": "Shared\\CQRS\\CQRS.Application\\Logic\\MediatorExtension.cs",
+              "ToolTip": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\MediatorExtension.cs",
+              "RelativeToolTip": "Shared\\CQRS\\CQRS.Application\\Logic\\MediatorExtension.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvykAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T09:33:36.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\medatortest\\Program.cs",
               "RelativeDocumentMoniker": "medatortest\\Program.cs",
               "ToolTip": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\medatortest\\Program.cs",
               "RelativeToolTip": "medatortest\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAkwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T13:43:49.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Mediator.cs",
-              "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\Mediator.cs",
-              "RelativeDocumentMoniker": "Shared\\CQRS\\CQRS.Application\\Logic\\Mediator.cs",
-              "ToolTip": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\Mediator.cs",
-              "RelativeToolTip": "Shared\\CQRS\\CQRS.Application\\Logic\\Mediator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IRequestVoid.cs",
+              "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestVoid.cs",
+              "RelativeDocumentMoniker": "Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestVoid.cs",
+              "ToolTip": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestVoid.cs",
+              "RelativeToolTip": "Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestVoid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T13:58:58.88Z",
+              "WhenOpened": "2025-10-26T12:56:57.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RandomNumberCommandHandler.cs",
-              "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\medatortest\\Command\\RandomNumberCommandHandler.cs",
-              "RelativeDocumentMoniker": "medatortest\\Command\\RandomNumberCommandHandler.cs",
-              "ToolTip": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\medatortest\\Command\\RandomNumberCommandHandler.cs",
-              "RelativeToolTip": "medatortest\\Command\\RandomNumberCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "IRequestHandler.cs",
+              "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestHandler.cs",
+              "RelativeDocumentMoniker": "Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestHandler.cs",
+              "ToolTip": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestHandler.cs",
+              "RelativeToolTip": "Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T12:46:45.529Z",
+              "WhenOpened": "2025-10-26T12:56:40.235Z",
               "EditorCaption": ""
             },
             {
@@ -190,46 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IRequestVoid.cs",
-              "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestVoid.cs",
-              "RelativeDocumentMoniker": "Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestVoid.cs",
-              "ToolTip": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestVoid.cs",
-              "RelativeToolTip": "Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestVoid.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T12:56:57.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IRequestHandlerVoid.cs",
-              "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestHandlerVoid.cs",
-              "RelativeDocumentMoniker": "Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestHandlerVoid.cs",
-              "ToolTip": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestHandlerVoid.cs",
-              "RelativeToolTip": "Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestHandlerVoid.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T12:56:52.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IRequestHandler.cs",
-              "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestHandler.cs",
-              "RelativeDocumentMoniker": "Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestHandler.cs",
-              "ToolTip": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestHandler.cs",
-              "RelativeToolTip": "Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T12:56:40.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IRequest.cs",
               "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequest.cs",
               "RelativeDocumentMoniker": "Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequest.cs",
@@ -242,7 +237,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
+              "Title": "RandomNumberCommandHandler.cs",
+              "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\medatortest\\Command\\RandomNumberCommandHandler.cs",
+              "RelativeDocumentMoniker": "medatortest\\Command\\RandomNumberCommandHandler.cs",
+              "ToolTip": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\medatortest\\Command\\RandomNumberCommandHandler.cs",
+              "RelativeToolTip": "medatortest\\Command\\RandomNumberCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T12:46:45.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRequestHandlerVoid.cs",
+              "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestHandlerVoid.cs",
+              "RelativeDocumentMoniker": "Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestHandlerVoid.cs",
+              "ToolTip": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestHandlerVoid.cs",
+              "RelativeToolTip": "Shared\\CQRS\\CQRS.Application\\Logic\\Abstract\\IRequestHandlerVoid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T12:56:52.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-10-26T13:08:47.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\Class1.cs",
               "RelativeDocumentMoniker": "Shared\\CQRS\\CQRS.Application\\Class1.cs",
@@ -250,11 +284,12 @@
               "RelativeToolTip": "Shared\\CQRS\\CQRS.Application\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T14:30:34.855Z"
+              "WhenOpened": "2025-10-25T14:30:34.855Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "FlashCard.Shared.CQRS.Application.csproj",
               "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\FlashCard.Shared.CQRS.Application.csproj",
               "RelativeDocumentMoniker": "Shared\\CQRS\\CQRS.Application\\FlashCard.Shared.CQRS.Application.csproj",
@@ -262,11 +297,12 @@
               "RelativeToolTip": "Shared\\CQRS\\CQRS.Application\\FlashCard.Shared.CQRS.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-25T10:07:46.64Z"
+              "WhenOpened": "2025-10-25T10:07:46.64Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "FlashcardApp.Botstraper.API.csproj",
               "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Botstrapper\\FlashcardApp.Botstraper.API\\FlashcardApp.Botstraper.API.csproj",
               "RelativeDocumentMoniker": "Botstrapper\\FlashcardApp.Botstraper.API\\FlashcardApp.Botstraper.API.csproj",
@@ -274,11 +310,12 @@
               "RelativeToolTip": "Botstrapper\\FlashcardApp.Botstraper.API\\FlashcardApp.Botstraper.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-25T10:02:43.644Z"
+              "WhenOpened": "2025-10-25T10:02:43.644Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Flashcard.Modules.Users.Application.csproj",
               "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Modules\\Users\\Users.Application\\Flashcard.Modules.Users.Application.csproj",
               "RelativeDocumentMoniker": "Modules\\Users\\Users.Application\\Flashcard.Modules.Users.Application.csproj",
@@ -286,11 +323,12 @@
               "RelativeToolTip": "Modules\\Users\\Users.Application\\Flashcard.Modules.Users.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-25T10:02:21.012Z"
+              "WhenOpened": "2025-10-25T10:02:21.012Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "FlashCard.Modules.Users.Infrastructure.csproj",
               "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Modules\\Users\\Users.Infrastructure\\FlashCard.Modules.Users.Infrastructure.csproj",
               "RelativeDocumentMoniker": "Modules\\Users\\Users.Infrastructure\\FlashCard.Modules.Users.Infrastructure.csproj",
@@ -298,11 +336,12 @@
               "RelativeToolTip": "Modules\\Users\\Users.Infrastructure\\FlashCard.Modules.Users.Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-25T10:02:07.348Z"
+              "WhenOpened": "2025-10-25T10:02:07.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "FlashCard.Modules.Users.API.csproj",
               "DocumentMoniker": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Modules\\Users\\Users.API\\FlashCard.Modules.Users.API.csproj",
               "RelativeDocumentMoniker": "Modules\\Users\\Users.API\\FlashCard.Modules.Users.API.csproj",
@@ -310,7 +349,8 @@
               "RelativeToolTip": "Modules\\Users\\Users.API\\FlashCard.Modules.Users.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-25T10:01:29.9Z"
+              "WhenOpened": "2025-10-25T10:01:29.9Z",
+              "EditorCaption": ""
             }
           ]
         }

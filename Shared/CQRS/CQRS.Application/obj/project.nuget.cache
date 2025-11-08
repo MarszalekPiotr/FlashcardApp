@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "1rvCG2tCnJU=",
+  "dgSpecHash": "kWsSsF+aSek=",
   "success": true,
   "projectFilePath": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\Shared\\CQRS\\CQRS.Application\\FlashCard.Shared.CQRS.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Piotr\\.nuget\\packages\\entityframework\\5.0.0\\entityframework.5.0.0.nupkg.sha512"
+    "C:\\Users\\Piotr\\.nuget\\packages\\entityframework\\5.0.0\\entityframework.5.0.0.nupkg.sha512",
+    "C:\\Users\\Piotr\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.10\\microsoft.extensions.dependencyinjection.9.0.10.nupkg.sha512",
+    "C:\\Users\\Piotr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.10\\microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512"
   ],
   "logs": [
     {

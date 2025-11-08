@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RgQGDgr5Awg=",
+  "dgSpecHash": "QcyFvO7SS3k=",
   "success": true,
   "projectFilePath": "D:\\Repos\\FlashcardApp\\FlashcardApp\\src\\medatortest\\medatortest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Piotr\\.nuget\\packages\\entityframework\\5.0.0\\entityframework.5.0.0.nupkg.sha512",
+    "C:\\Users\\Piotr\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.10\\microsoft.extensions.dependencyinjection.9.0.10.nupkg.sha512",
+    "C:\\Users\\Piotr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.10\\microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512",
     "C:\\Users\\Piotr\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
   ],
   "logs": [

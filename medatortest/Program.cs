@@ -2,47 +2,39 @@
 using FlashCard.Shared.CQRS.Application.Logic;
 using medatortest.Command;
 using medatortest.Query;
+using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using System.Reflection;
 using System.Text.Json.Serialization;
 
 
-if (false)
-{
-
-
-
-    var mediator = new FlashCard.Shared.CQRS.Application.Logic.Mediator(Assembly.GetAssembly(typeof(RandomNumberResponse)));
-
-    RandomNymberQuery request = new RandomNymberQuery
+var assembly = Assembly.GetAssembly(typeof(RandomNumberCommandHandler));
+IServiceCollection services = new ServiceCollection();
+     services.RegisterMediator(Assembly.GetExecutingAssembly());
+    var serviceProvider = services.BuildServiceProvider();
+  
+    serviceProvider.CreateScope();
+    var mediator = new Mediator(services, serviceProvider);
+if (mediator == null)
     {
-        RequestTime = DateTime.Now
-    };
-    var response = await mediator.SendGeneric(request);
-
-    //IServiceProvider services = new ServiceCollection();
-
-    var apiresponse = JsonConvert.SerializeObject(response);
-
-    Console.WriteLine(apiresponse);
+        throw new InvalidOperationException("Mediator nie zostal poprawnie zarejestrowany w kontenerze DI");
 }
-else
-{
 
-    var mediator = new FlashCard.Shared.CQRS.Application.Logic.Mediator(Assembly.GetAssembly(typeof(RandomNumberResponse)));
-
-    RandomNymberCommandRequest request = new RandomNymberCommandRequest
+    var commandRequest = new RandomNymberCommandRequest
     {
         RequestTime = DateTime.Now
     };
+    await mediator.SendCommand(commandRequest);
+    var queryRequest = new RandomNymberQuery
+    {
+        RequestTime = DateTime.Now
+    };
+    var response = await mediator.SendQuery<RandomNumberResponse>(queryRequest);
 
-    var response = await mediator.SendGeneric(request);
-
-    //IServiceProvider services = new ServiceCollection();
-
-    var apiresponse = JsonConvert.SerializeObject(response);
+ 
+var apiresponse = JsonConvert.SerializeObject(response);
 
     Console.WriteLine(apiresponse);
 
 
-}
+

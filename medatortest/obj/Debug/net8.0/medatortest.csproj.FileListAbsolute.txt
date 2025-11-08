@@ -18,3 +18,5 @@ D:\Repos\FlashcardApp\FlashcardApp\src\medatortest\obj\Debug\net8.0\refint\medat
 D:\Repos\FlashcardApp\FlashcardApp\src\medatortest\obj\Debug\net8.0\medatortest.pdb
 D:\Repos\FlashcardApp\FlashcardApp\src\medatortest\obj\Debug\net8.0\medatortest.genruntimeconfig.cache
 D:\Repos\FlashcardApp\FlashcardApp\src\medatortest\obj\Debug\net8.0\ref\medatortest.dll
+D:\Repos\FlashcardApp\FlashcardApp\src\medatortest\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Repos\FlashcardApp\FlashcardApp\src\medatortest\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

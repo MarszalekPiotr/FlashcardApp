@@ -1,47 +1,21 @@
 ﻿using FlashCard.Shared.CQRS.Application.Logic.Abstract;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FlashCard.Shared.CQRS.Application.Logic
 {
     public class Mediator
     {
-        private Assembly _assembly;
-        private Dictionary<Type, object> _handlerTypesInstancesCache = new Dictionary<Type, object>();
-
-        public Mediator(Assembly assembly)
-        {
-            _assembly = assembly;
+  
+        private IServiceCollection _services;
+        private IServiceProvider _serviceProvider;
+        public Mediator(IServiceCollection services,IServiceProvider serviceProvider)
+        {           
+            _services = services;
+            _serviceProvider = serviceProvider;
         }
-
-
-
-        public async Task<object> SendGeneric(object request)
-        {
-            // to do use service collection instead of assembly scanning
-            // uwzglednic Irequest nie ma respsosne
-            // 
-            bool isCommand = request.GetType().GetInterfaces()
-                .Any(i => !i.IsGenericType && i == typeof(IRequest));
-            bool isQuery = !isCommand;
-
-            if (isQuery) 
-            { 
-                return await SendQuery(request);
-            }
-            else
-            {
-                return await SendCommand(request);
-            }
-
-        }
-
-
-        private async Task<object> SendCommand(object request)
+       
+        public async Task SendCommand(IRequest request)
         {
             List<Type> handlerTypes =
                 GetCommandHandlers(request);
@@ -55,30 +29,23 @@ namespace FlashCard.Shared.CQRS.Application.Logic
             }
 
             var handlerType = handlerTypes.First();
-            var handlerInstance = Activator.CreateInstance(handlerType);
-            var methodInfo = handlerType.GetMethod("Handle");
-            if (methodInfo == null)
-            {
-                throw new InvalidOperationException("Handler does not contain a Handle method");
-            }
+            _serviceProvider.CreateScope();
+            var handlerInstance = _serviceProvider.GetService(handlerType);
+            var handleMethod = handlerType.GetMethod("Handle");
+            var result =  handleMethod?.Invoke(handlerInstance, new object[] { request }) as Task;
 
-            var invoked = methodInfo.Invoke(handlerInstance, new object[] { request });
-            if (invoked is Task task)
+            if (handlerInstance == null)
             {
-                await task.ConfigureAwait(false);
-                return task.IsCompletedSuccessfully;
+                throw new InvalidOperationException("Handler nie implementuje poprawnie interfejsu");
             }
-
-            return null;
+        
 
         }
 
-        private async Task<object> SendQuery(object request)
+        public async Task<Tresponse> SendQuery<Tresponse>(IRequest<Tresponse> request) where Tresponse : class
         {
-
-
             List<Type> handlerTypes = 
-                GetQueryHandlers(request);
+                GetQueryHandlers<Tresponse>(request);
 
 
             if (handlerTypes.Count == 0)
@@ -94,10 +61,6 @@ namespace FlashCard.Shared.CQRS.Application.Logic
 
             Type responseType = handler.GetInterfaces().Select(i => i.GetGenericArguments()[1]).FirstOrDefault();
 
-
-            // to do uwzglednic jak Irequest nie jest 
-
-
             var implementedInterfacesForRequest = request.GetType()
              .GetInterfaces().FirstOrDefault(i => i.IsGenericType &&
              i.GetGenericTypeDefinition() == typeof(IRequest<>)
@@ -109,47 +72,44 @@ namespace FlashCard.Shared.CQRS.Application.Logic
             {
                 throw new InvalidOperationException("reuest nie matchuje z responsem");
             }
-
-
+            
             var handlerType = handlerTypes.First();
-            var handlerInstance = Activator.CreateInstance(handlerType);
-            var methodInfo = handlerType.GetMethod("Handle");
-            if (methodInfo == null)
+            _serviceProvider.CreateScope();
+            var handlerInstance = _serviceProvider.GetService(handlerType);
+            var handleMethod = handlerType.GetMethod("Handle");
+            var result = handleMethod?.Invoke(handlerInstance, new object[] { request });
+
+            if (handlerInstance == null)
             {
-                throw new InvalidOperationException("Handler does not contain a Handle method");
+                throw new InvalidOperationException("Handler nie implementuje poprawnie interfejsu");
             }
 
-            var invoked = methodInfo.Invoke(handlerInstance, new object[] { request });
-            if (invoked is Task task)
-            {
-                await task.ConfigureAwait(false);
-                var taskType = task.GetType();
-                var resultProp = taskType.IsGenericType ? taskType.GetProperty("Result") : null;
-                return resultProp?.GetValue(task);
-            }
+            return (result as Task<Tresponse>).Result;
 
-            return null;
         }
 
-        private List<Type> GetQueryHandlers(object request)
-        {
+        private List<Type> GetQueryHandlers<Tres>(IRequest<Tres> request) where Tres : class
+        {    
 
-            List<Type> handlerTypes = _assembly.GetTypes()
-                                              .Where(type => !type.IsInterface && !type.IsAbstract)
+            List<Type> handlerTypes = _services.Select(sd => sd.ImplementationType ?? sd.ServiceType)
+                                                .Distinct()
+                                                .Where(type => !type.IsInterface && !type.IsAbstract)
                                                 .Where(type => type.GetInterfaces()
                                                 .Any(i => i.IsGenericType &&
                                                  i.GetGenericTypeDefinition() == typeof(IRequestHandler<,>) &&
-                                                 i.GetGenericArguments()[0] == request.GetType()))
+                                                 i.GetGenericArguments()[0] == request.GetType() 
+                                                 && i.GetGenericArguments()[1] == typeof(Tres)))
                                                  .ToList();
 
             return handlerTypes;
         }
         
 
-            private List<Type> GetCommandHandlers(object request)
+            private List<Type> GetCommandHandlers(IRequest request)
             {
-                List<Type> handlerTypes = _assembly.GetTypes()
-                                                  .Where(type => !type.IsInterface && !type.IsAbstract)
+                List<Type> handlerTypes = _services.Select(sd => sd.ImplementationType ?? sd.ServiceType)
+                                                .Distinct()
+                                                    .Where(type => !type.IsInterface && !type.IsAbstract)
                                                     .Where(type => type.GetInterfaces()
                                                     .Any(i => i.IsGenericType &&
                                                      i.GetGenericTypeDefinition() == typeof(IRequestHandler<>) &&
