@@ -1,4 +1,5 @@
-﻿using Flashcard.Modules.Users.Application.Interfaces.Repositories;
+﻿using DataBase;
+using Flashcard.Modules.Users.Application.Interfaces.Repositories;
 using Flashcard.Modules.Users.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ namespace FlashCard.Modules.Users.Infrastructure.Repositories
 
         public async Task  AddUserAsync(User user)
         {
-            await _context.Users.AddAsync(user);
+            await _context.Set<User>().AddAsync(user);
             await _context.SaveChangesAsync();
         }
     }

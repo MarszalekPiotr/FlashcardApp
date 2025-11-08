@@ -11,9 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Shared\DataBase\DataBase.csproj" />
-    <ProjectReference Include="..\Users.Application\Flashcard.Modules.Users.Application.csproj" />
-    <ProjectReference Include="..\Users.Domain\Flashcard.Modules.Users.Domain.csproj" />
+    <ProjectReference Include="..\..\Modules\Users\Users.Domain\Flashcard.Modules.Users.Domain.csproj" />
   </ItemGroup>
 
 </Project>
