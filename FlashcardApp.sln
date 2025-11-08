@@ -29,6 +29,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Temporarytests", "Temporary
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "medatortest", "medatortest\medatortest.csproj", "{ED692ADA-8D71-459F-86DC-C18438F69971}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Words", "Words", "{6FD5C408-789A-4C14-BB78-D6F45B55555A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashcardApp.Modules.Words.Domain", "FlashcardApp.Modules.Words.Domain\FlashcardApp.Modules.Words.Domain.csproj", "{9AA59EBB-2449-450F-81D5-0F7968E1B9E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashcardApp.Modules.Words.Application", "FlashcardApp.Modules.Words.Application\FlashcardApp.Modules.Words.Application.csproj", "{71CD3E97-4D2C-4808-B53E-4B4C4B619B46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashcardApp.Modules.Words.Infrastructure", "FlashcardApp.Modules.Words.Infrastructure\FlashcardApp.Modules.Words.Infrastructure.csproj", "{D5B37EE2-52DB-43CD-A6E9-F2685FE9564E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashcardApp.Modules.Words.API", "FlashcardApp.Modules.Words.API\FlashcardApp.Modules.Words.API.csproj", "{543FE3F7-C688-4B8C-9378-F3FD1C4D9744}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +73,22 @@ Global
 		{ED692ADA-8D71-459F-86DC-C18438F69971}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED692ADA-8D71-459F-86DC-C18438F69971}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED692ADA-8D71-459F-86DC-C18438F69971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA59EBB-2449-450F-81D5-0F7968E1B9E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA59EBB-2449-450F-81D5-0F7968E1B9E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA59EBB-2449-450F-81D5-0F7968E1B9E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA59EBB-2449-450F-81D5-0F7968E1B9E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71CD3E97-4D2C-4808-B53E-4B4C4B619B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71CD3E97-4D2C-4808-B53E-4B4C4B619B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71CD3E97-4D2C-4808-B53E-4B4C4B619B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71CD3E97-4D2C-4808-B53E-4B4C4B619B46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5B37EE2-52DB-43CD-A6E9-F2685FE9564E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B37EE2-52DB-43CD-A6E9-F2685FE9564E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B37EE2-52DB-43CD-A6E9-F2685FE9564E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B37EE2-52DB-43CD-A6E9-F2685FE9564E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543FE3F7-C688-4B8C-9378-F3FD1C4D9744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543FE3F7-C688-4B8C-9378-F3FD1C4D9744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543FE3F7-C688-4B8C-9378-F3FD1C4D9744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543FE3F7-C688-4B8C-9378-F3FD1C4D9744}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +104,11 @@ Global
 		{83103359-9AA3-5557-C201-B2A07A8DD108} = {92F7A287-6C60-4AA3-AFCD-B54B497FD990}
 		{766DC976-6836-4160-BB9C-A7DC9B58D673} = {369CB01D-A1A7-72D2-AABC-3F0945D148A2}
 		{ED692ADA-8D71-459F-86DC-C18438F69971} = {766DC976-6836-4160-BB9C-A7DC9B58D673}
+		{6FD5C408-789A-4C14-BB78-D6F45B55555A} = {DC445D38-1714-42A5-B66D-0A8E6E92953F}
+		{9AA59EBB-2449-450F-81D5-0F7968E1B9E5} = {6FD5C408-789A-4C14-BB78-D6F45B55555A}
+		{71CD3E97-4D2C-4808-B53E-4B4C4B619B46} = {6FD5C408-789A-4C14-BB78-D6F45B55555A}
+		{D5B37EE2-52DB-43CD-A6E9-F2685FE9564E} = {6FD5C408-789A-4C14-BB78-D6F45B55555A}
+		{543FE3F7-C688-4B8C-9378-F3FD1C4D9744} = {6FD5C408-789A-4C14-BB78-D6F45B55555A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9BACD001-8337-4EA3-A441-232E3E4CE915}

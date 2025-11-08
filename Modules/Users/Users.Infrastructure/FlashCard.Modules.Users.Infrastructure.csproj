@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Users.Application\Flashcard.Modules.Users.Application.csproj" />
     <ProjectReference Include="..\Users.Domain\Flashcard.Modules.Users.Domain.csproj" />
   </ItemGroup>
