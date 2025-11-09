@@ -1,8 +1,16 @@
 using DataBase;
+using Flashcard.Modules.Users.Application.Logic.Abstract;
 using FlashCard.Modules.Users.API;
+using FlashCard.Shared.CQRS.Application.Logic;
 using Microsoft.EntityFrameworkCore;// Dodano dla SqlClient
 using Microsoft.EntityFrameworkCore.SqlServer; // Dodano dla rozszerzenia UseSqlServer
 using System;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.Loader;
+using Microsoft.Extensions.DependencyModel;
+using FlashcardApp.Botstraper.API.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +29,8 @@ builder.Services.AddDbContext<Context>(opt =>
     opt.UseSqlServer("Server=localhost;Database=FlashCardDB;User Id=sa;Password=Elettric802037;TrustServerCertificate=True;"));
 
 // add modules
+builder.Services.AddModulesMediator();
+
 builder.Services.AddUserModule();
 
 var app = builder.Build();

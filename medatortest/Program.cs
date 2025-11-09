@@ -8,9 +8,9 @@ using System.Reflection;
 using System.Text.Json.Serialization;
 
 
-var assembly = Assembly.GetAssembly(typeof(RandomNumberCommandHandler));
+var assembly = Assembly.GetAssembly(typeof(Program));
 IServiceCollection services = new ServiceCollection();
-     services.RegisterMediator(Assembly.GetExecutingAssembly());
+     //services.RegisterMediator(Assembly.GetExecutingAssembly());
     var serviceProvider = services.BuildServiceProvider();
   
     serviceProvider.CreateScope();
