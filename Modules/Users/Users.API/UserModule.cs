@@ -12,7 +12,7 @@ namespace FlashCard.Modules.Users.API
             
             services.AddScoped<IUserRepository, UserRepository>();
 
-            services.RegisterMediator(typeof(BaseQueryHandler).Assembly);
+          
 
             services.AddControllers()
           .AddApplicationPart(typeof(UserModule).Assembly);
